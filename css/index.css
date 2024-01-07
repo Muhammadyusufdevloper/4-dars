@@ -1,0 +1,101 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.bacround-img {
+    background-image: url(../image/body/lynx_in_space.png), url(../image/body/background_in_space.gif);
+    background-repeat: no-repeat, repeat;
+    background-position: 90% 60%, center;
+}
+.header {
+    background-color: #282A35;
+    padding: 6px;
+}
+
+.contener {
+    width: 100%;
+    max-width: 1440px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.page-contener {
+    width: 100%;
+    max-width: 1130px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 20px;
+    padding-right: 20px;
+    border: 1px solid #f1f1f1;
+    border-bottom: none;
+}
+
+/* INDEX HTML */
+.header-w3schools-img {
+    width: 35px;
+    height: 35px;
+}
+
+.wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.nav-ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    list-style: none;
+}
+
+.nav-li a {
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.nav-li a:hover {
+    background-color: black;
+}
+
+.nav-li a:active {
+    background-color: #04AA6D;
+}
+.hero {
+    padding-top: 90px;
+}
+
+.hero-tile-h1 {
+    text-align: center;
+    font-weight: 700;
+    font-size: 70px;
+    color: white;
+    margin-bottom: 30px;
+}
+
+.hero-tile-h3 {
+    text-align: center;
+    font-weight: 700;
+    font-size: 30px;
+    color: #FFF4A3;
+    margin-bottom: 30px;
+}
+
+.hero-title-h4 a {
+    font-size: 23px;
+    font-weight: 700;
+    color: white;
+}
+
+.hero-title-h4 {
+    text-align: center;
+}
